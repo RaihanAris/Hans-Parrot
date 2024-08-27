@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hans Parrot</title>
+    <link rel="icon" type="image/png" href="img/icon.png" sizes="16x16 32x32" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="navbar">
+      <a href="#" class="navbar-logo">Hans <span>Parrot</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#products">Product</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+      <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/products/p1.jpg" alt="Produk1" />
+          <div class="item-details">
+            <h3>Red n Green Macaw</h3>
+            <div class="item-price">IDR 32.000K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart End -->
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Section Hero Start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Parrot Paradise <span>Now Here!</span></h1>
+        <p>Make your dream of owning a parrot come true with the guidance and support of our experts.</p>
+        <a href="about" class="cta">Buy Now</a>
+      </main>
+    </section>
+    <!-- Section Hero End-->
+
+    <!-- Section About Start -->
+    <section class="about" id="about">
+      <h2><span>About</span> Us</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about.jpg" alt="Tentang Kami" />
+        </div>
+
+        <div class="content">
+          <h3>why should you buy here??</h3>
+          <p>All our parrots come from trusted breeders and have gone through strict health checks. We ensure that the parrot you buy is healthy, active and has beautiful feathers.</p>
+          <p>We offer competitive prices for all types of parrots and guarantee safe delivery to their destination.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Section About End -->
+
+    <!-- Section Catalog Start -->
+    <section class="catalog" id="catalog">
+      <h2><span>Our</span> Catalog</h2>
+      <p>We provide various types of parrots and equipment to care for them. Find your favorite birds, nutritious food, interactive toys, comfortable cages, and various interesting accessories in our shop.</p>
+      <div class="row">
+        <div class="catalog-card">
+          <img src="img/catalog/1.png" alt="Macaw1" class="catalog-card-img" />
+          <h3 class="catalog-card-title">Macaw</h3>
+          <p class="catalog-card-price">IDR 30.000k - IDR 300.000K</p>
+        </div>
+        <div class="catalog-card">
+          <img src="img/catalog/2.png" alt="Macaw1" class="catalog-card-img" />
+          <h3 class="catalog-card-title">Parrot Food</h3>
+          <p class="catalog-card-price">IDR 40K - IDR 150K</p>
+        </div>
+        <div class="catalog-card">
+          <img src="img/catalog/3.png" alt="Macaw1" class="catalog-card-img" />
+          <h3 class="catalog-card-title">Parrot Cage</h3>
+          <p class="catalog-card-price">IDR 4.000K - IDR 10.000K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Section Catalog End -->
+
+    <!-- Products Start -->
+    <section class="products" id="products">
+      <h2><span>Our</span> Product</h2>
+      <p>The following products are currently available in your store. Buy your dream item immediately!</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icon">
+            <a href=""><i data-feather="plus"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/p1.jpg" alt="Produk1" />
+          </div>
+          <div class="product-content">
+            <h3>Red n Green Macaw</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              <p>IDR 32.000K<span>IDR 41.000K</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href=""><i data-feather="plus"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/hyacint.png" alt="Produk2" />
+          </div>
+          <div class="product-content">
+            <h3>Hyacint Macaw</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">
+              <p>IDR 290.000K<span>IDR 300.000K</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href=""><i data-feather="plus"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/cage.png" alt="Produk3" />
+          </div>
+          <div class="product-content">
+            <h3>100x100 Aluminum Parrot Cage</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              <p>IDR 5.000K<span>IDR 5.500K</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">
+            <a href=""><i data-feather="plus"></i></a>
+            <a href="" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/food.png" alt="Produk1" />
+          </div>
+          <div class="product-content">
+            <h3>Vitakraft 3 kg</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              <p>IDR 150K<span>IDR 190K</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products End -->
+
+    <!-- Section Contact Start -->
+    <section class="contact" id="contact">
+      <h2><span>Our</span> Contact</h2>
+      <p>Contact us if you have questions, would like more information, or or want to come to the offline store.</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.605554214931!2d107.00077847316663!3d-6.183513360583331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698bd901aaa9f9%3A0xa88bfdcbb26fb3ab!2sBlk.%20003%20-%20004%20No.80%2C%20RT.005%2FRW.026%2C%20Kaliabang%20Tengah%2C%20Kec.%20Bekasi%20Utara%2C%20Kota%20Bks%2C%20Jawa%20Barat%2017125!5e0!3m2!1sen!2sid!4v1710504630038!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Phone Number" />
+          </div>
+          <div class="input-group">
+            <i data-feather="edit-2"></i>
+            <input type="text" placeholder="Message" />
+          </div>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- Section Contact End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="linkedin"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="#">Raihan Aris D.</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Modal Box Item Detail Start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/p1.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Red n Green Macaw</h3>
+            <p>lore Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi eos possimus necessitatibus architecto alias at tempora magnam! Amet nobis ex esse debitis sequi. Ut, atque!</p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">
+              <p>IDR 30.000K<span>IDR 40.000K</span></p>
+              <a href=""><i data-feather="shopping-cart"></i><span>Add to Cart</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail End -->
+
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
